@@ -1,0 +1,12 @@
+number = input('Enter number:')
+
+
+try:
+    a = int(number)
+except ValueError:
+    print('a is nonsense')
+else:
+    if a > 5:
+        print('a is massive!')
+    elif a < 5:
+        print('a is tiny')
